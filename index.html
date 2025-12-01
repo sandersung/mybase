@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prompt Lookup — MyBase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Prompt Lookup</h1>
+    <p class="subtitle">Search prompts and view sample images</p>
+    <div class="controls">
+      <input id="searchInput" type="search" placeholder="Search prompts, tags, model..." />
+      <select id="modelFilter">
+        <option value="">All models</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section id="resultsCount" class="results-count"></section>
+    <section id="cards" class="cards"></section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Tip: Add new entries to <code>data/prompts.json</code> (or use remote image urls)</small>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
