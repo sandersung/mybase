@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "prompt": "A vibrant street market at sunset, cinematic lighting, 35mm, film grain, bustling crowd, wide-angle",
+    "tags": ["street", "sunset", "cinematic"],
+    "model": "stable-diffusion-v1",
+    "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><rect width='100%' height='100%' fill='%23f2a365'/><text x='50%' y='50%' font-size='28' text-anchor='middle' fill='%23102220' dy='.3em'>Market — placeholder</text></svg>"
+  },
+  {
+    "id": "2",
+    "prompt": "Portrait of a young woman with neon face paint, cyberpunk city, dramatic rim light, 4k",
+    "tags": ["portrait", "neon", "cyberpunk"],
+    "model": "midjourney-v5",
+    "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><rect width='100%' height='100%' fill='%23204a7c'/><text x='50%' y='50%' font-size='28' text-anchor='middle' fill='%23f7f7f7' dy='.3em'>Neon portrait — placeholder</text></svg>"
+  },
+  {
+    "id": "3",
+    "prompt": "Low-poly fantasy village on a hill, warm palette, isometric view, soft shadows",
+    "tags": ["fantasy", "low-poly", "isometric"],
+    "model": "dalle-2",
+    "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='450'><rect width='100%' height='100%' fill='%23c1d3b9'/><text x='50%' y='50%' font-size='28' text-anchor='middle' fill='%23122d1a' dy='.3em'>Fantasy — placeholder</text></svg>"
+  }
+]
